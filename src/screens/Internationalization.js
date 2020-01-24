@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, Text, View, Button} from 'react-native';
 import I18n from 'react-native-i18n';
 
-export default function App() {
+export default function Internationalization() {
   return (
     <View>
       <Text>'Welcome to React'</Text>
