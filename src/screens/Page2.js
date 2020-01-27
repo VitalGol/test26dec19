@@ -1,6 +1,7 @@
 import React from 'react';
 import {translate, Trans} from 'react-i18next';
 import {StyleSheet, Text, View, Button} from 'react-native';
+import styles from '../styles/style';
 
 export class Page2 extends React.Component {
   static navigationOptions = ({navigation, screenProps}) => ({
@@ -11,7 +12,7 @@ export class Page2 extends React.Component {
     const {t, i18n} = this.props;
 
     return (
-      <View style={styles.container}>
+      <View style={styles.Center}>
         <Text>{t('introduction')}</Text>
         <Text>{t('common:currentLanguage', {lng: i18n.language})}</Text>
         <Trans i18nKey="common:infoText">
